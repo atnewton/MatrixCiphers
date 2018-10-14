@@ -1,6 +1,4 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
+﻿open System
 
 let encrypted = "ocz hvomds dn v ntnozh izj ocvo ntnozh dn jzm zizht".ToUpper()
 
@@ -26,6 +24,7 @@ let main argv =
     Console.ForegroundColor <- ConsoleColor.Green
     Console.WriteLine(encrypted)
     let decrypted = shiftstring(encrypted, -21)
+    //dafuq is oer?
     Console.WriteLine(decrypted)
     System.Console.ReadKey() |> ignore
-    0 // return an integer exit code
+    0

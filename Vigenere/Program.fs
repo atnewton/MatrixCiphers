@@ -1,9 +1,8 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
+﻿open System
 
 let encrypted = "atacwfgiztwcpifzhovdtvwam".ToUpper()
 
+//Who Ndo?
 let key = "IAMNDO"
 
 let dec k c = ((c - k + 130) % 26) + 65
@@ -27,4 +26,4 @@ let main argv =
     let decrypted = decrypt encrypted key
     Console.WriteLine(decrypted)
     System.Console.ReadKey() |> ignore
-    0 // return an integer exit code
+    0

@@ -1,11 +1,9 @@
-﻿// Learn more about F# at http://fsharp.org
-
-open System
+﻿open System
 
 let encrypted = "yzo cmg twzj htzh nj zoxwjimo htzhi htw imgox mv sowfshzaspshc".ToUpper()
 
 let alphabetplusspace = List.append ['A'..'Z'] [' ']
-
+//ooh, it's reversed but not quite. So sneaky.
 let substitutionalphabetplusspace = ['B';'Z';'Y';'X';'W';'V';'U';'T';'S';'R';'Q';'P';'O';'M';'N';'L';'K';'J';'I';'H';'G';'F';'E';'D';'C';'A';' ']
 
 let substitute = 
@@ -23,4 +21,4 @@ let main argv =
     let decrypted = substitutestring(encrypted)
     Console.WriteLine(decrypted)
     System.Console.ReadKey() |> ignore
-    0 // return an integer exit code
+    0
