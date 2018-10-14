@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Caesar", "Caesar\Caesar.fsproj", "{E8B9399B-ECBA-4124-A451-D0D73325F227}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Substitution", "Substitution\Substitution.fsproj", "{26F07C15-FAAE-43C7-9A47-29FEDF9B000B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Vigenere", "Vigenere\Vigenere.fsproj", "{9AB1E99B-2DBC-4227-989A-ACD23D5819D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E8B9399B-ECBA-4124-A451-D0D73325F227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E8B9399B-ECBA-4124-A451-D0D73325F227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E8B9399B-ECBA-4124-A451-D0D73325F227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F07C15-FAAE-43C7-9A47-29FEDF9B000B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F07C15-FAAE-43C7-9A47-29FEDF9B000B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F07C15-FAAE-43C7-9A47-29FEDF9B000B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F07C15-FAAE-43C7-9A47-29FEDF9B000B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AB1E99B-2DBC-4227-989A-ACD23D5819D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB1E99B-2DBC-4227-989A-ACD23D5819D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB1E99B-2DBC-4227-989A-ACD23D5819D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB1E99B-2DBC-4227-989A-ACD23D5819D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
