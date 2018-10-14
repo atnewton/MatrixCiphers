@@ -29,25 +29,3 @@ let main argv =
     Console.WriteLine(decrypted)
     System.Console.ReadKey() |> ignore
     0 // return an integer exit code
-
-//open System
- 
-//let private cipher n s =
-//    let shift c =
-//        if Char.IsLetter c then
-//            let a = (if Char.IsLower c then 'a' else 'A') |> int
-//            (int c - a + n) % 26 + a |> char
-//        else c
-//    String.map shift s
- 
-//let encrypt n = cipher n
-//let decrypt n = cipher (26 - n)
-
-//> caesar.encrypt 2 "HI";;
-//val it : string = "JK"
-//> caesar.encrypt 20 "HI";;
-//val it : string = "BC"
-//> let c = caesar.encrypt 13 "The quick brown fox jumps over the lazy dog.";;
-//val c : string = "Gur dhvpx oebja sbk whzcf bire gur ynml qbt."
-//> caesar.decrypt 13 c;;
-//val it : string = "The quick brown fox jumps over the lazy dog."
