@@ -3,13 +3,16 @@
 open System
 
 let shift(c, shiftAmount) = 
-     let num = int(c) - int('A')
-     let offsetNum = (num+shiftAmount)%26
+    if c = 32 then
+        char(int(' '))
+    else
+        let num = int(c) - int('A')
+        let offsetNum = (num+shiftAmount)%26
      
-     if offsetNum < 0 then
-        char(int('Z') + offsetNum + 1)
-     else
-        char(offsetNum + int('A'))
+        if offsetNum < 0 then
+            char(int('Z') + offsetNum + 1)
+        else
+            char(offsetNum + int('A'))
 
 let shiftstring(str:string, shiftAmount) =
     str.ToCharArray() 
@@ -25,4 +28,3 @@ let main argv =
     Console.WriteLine(decrypted)
     System.Console.ReadKey() |> ignore
     0 // return an integer exit code
-
